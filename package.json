@@ -1,0 +1,28 @@
+{
+  "name": "create-mutorr-stack",
+  "version": "1.0.0",
+  "description": "A CLI to scaffold a modern React project with Material-UI, Redux Toolkit, React Router DOM, and optional TypeScript/Tailwind CSS",
+  "bin": {
+    "create-mutorr-stack": "./index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "prompts": "^2.4.2"
+  },
+  "keywords": [
+    "react",
+    "material-ui",
+    "redux-toolkit",
+    "react-router-dom",
+    "typescript",
+    "tailwindcss",
+    "vite",
+    "cli",
+    "scaffold"
+  ],
+  "author": "Lokesh Kapade",
+  "license": "MIT"
+}
