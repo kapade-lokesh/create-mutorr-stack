@@ -60,25 +60,25 @@ npm run preview
 
 Project Structure
 The generated project has a clean, scalable structure:
-my-app/
-├── src/
-│   ├── components/          # Reusable UI components
-│   ├── features/           # Redux slices and logic
-│   │   └── counter/        # Sample counter slice
-│   ├── hooks/              # Custom React hooks
-│   ├── pages/              # Route-based page components
-│   │   ├── Home.tsx        # Home page with counter demo
-│   │   └── About.tsx       # About page
-│   ├── store/              # Redux store configuration
-│   ├── utils/              # Utility functions
-│   ├── App.tsx             # Router setup with MUI Container
-│   ├── main.tsx            # Redux Provider and app entry
-│   └── index.css           # Global styles (Tailwind or basic)
-├── public/                 # Static assets
-├── index.html              # Vite entry point
-├── package.json            # Project metadata and scripts
-├── vite.config.ts          # Vite configuration
-└── tailwind.config.js      # Tailwind configuration (if selected)
+my-app/ <br>
+├── src/ <br>
+│   ├── components/          # Reusable UI components <br>
+│   ├── features/           # Redux slices and logic <br>
+│   │   └── counter/        # Sample counter slice <br>
+│   ├── hooks/              # Custom React hooks <br>
+│   ├── pages/              # Route-based page components <br>
+│   │   ├── Home.tsx        # Home page with counter demo <br>
+│   │   └── About.tsx       # About page <br>
+│   ├── store/              # Redux store configuration <br>
+│   ├── utils/              # Utility functions <br>
+│   ├── App.tsx             # Router setup with MUI Container <br>
+│   ├── main.tsx            # Redux Provider and app entry <br>
+│   └── index.css           # Global styles (Tailwind or basic) <br>
+├── public/                 # Static assets <br>
+├── index.html              # Vite entry point <br>
+├── package.json            # Project metadata and scripts <br>
+├── vite.config.ts          # Vite configuration <br>
+└── tailwind.config.js      # Tailwind configuration (if selected) <br>
 
 Example
 The generated project includes a sample app with:
