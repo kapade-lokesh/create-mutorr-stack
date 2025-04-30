@@ -1,5 +1,5 @@
  <p align="center">
-  <img src="YOUR_LOGO_LINK_HERE" alt="Create Mutorr Stack Logo" width="200"/>
+  <img src="https://res.cloudinary.com/dzooftuit/image/upload/v1745995442/logo_ewfpn4.svg" alt="Create Mutorr Stack Logo" width="200"/>
 </p>
 
 # 🚀 create-mutorr-stack
