@@ -27,7 +27,7 @@ A powerful CLI tool to scaffold a modern React project with **Material-UI (MUI)*
 You don’t need to install anything globally! Simply run the following command to create a new project:
 
 ```bash
-npm create-mutorr-stack my-app
+npm init mutorr-stack@latest my-app
 
 
 ```
