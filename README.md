@@ -1,8 +1,8 @@
-  <p align="center">
+<p align="center">
   <img src="https://res.cloudinary.com/dzooftuit/image/upload/v1745995442/logo_ewfpn4.svg" alt="Create Mutorr Stack Logo" width="200"/>
 </p>
 
-# 🚀 create-mutorr-stack
+# 🚀 **create-mutorr-stack**
 
 A powerful CLI tool to scaffold a modern React project with **Material-UI (MUI)**, **Redux Toolkit**, **React Router DOM**, and optional **TypeScript** and **Tailwind CSS**, powered by **Vite**.
 
@@ -10,7 +10,7 @@ A powerful CLI tool to scaffold a modern React project with **Material-UI (MUI)*
 
 ---
 
-## ✨ Features
+# ✨ **Features**
 
 - 🎨 **Material-UI (MUI)**: Pre-configured, beautiful UI components for rapid development.
 - 🧠 **Redux Toolkit**: Simplified state management with a sample counter slice.
@@ -22,17 +22,14 @@ A powerful CLI tool to scaffold a modern React project with **Material-UI (MUI)*
 
 ---
 
-## 🛠️ Installation
+# 🛠️ **Installation**
 
-### Global Installation
-
-Install the CLI globally to use it anywhere:
+You don’t need to install anything globally! Simply run the following command to create a new project:
 
 ```bash
-npm install -g @yourname/create-mutorr-stack
+npm create-mutorr-stack my-app
 
-Quick Start with npx
-npx create-mutorr-stack my-app
+ 
 ```
 
 ## 🚀 Usage
