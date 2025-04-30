@@ -6,7 +6,16 @@ import { join } from "path";
 import prompts from "prompts";
 
 (async () => {
+  // Get project name from command-line arguments (e.g., npm create @yourname/mutorr-stack@latest my-app)
   const projectName = process.argv[2] || "my-react-app";
+
+  // Validate project name to ensure it's safe for file creation
+  if (!/^[a-z0-9-]+$/.test(projectName)) {
+    console.error(
+      "Project name must contain only lowercase letters, numbers, and hyphens (e.g., my-app)."
+    );
+    process.exit(1);
+  }
 
   console.log(`Creating a new React project: ${projectName}...`);
 
@@ -76,7 +85,7 @@ import prompts from "prompts";
     // Add Tailwind devDependencies if selected
     if (useTailwind) {
       packageJson.devDependencies = {
-        ...packageJson.devDependencies,
+        ...packageJson.dependencies,
         tailwindcss: "^3.4.0",
         postcss: "^8.4.0",
         autoprefixer: "^10.4.0",
