@@ -1,6 +1,6 @@
 {
   "name": "create-mutorr-stack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI to scaffold a modern React project with Material-UI, Redux Toolkit, React Router DOM, and optional TypeScript/Tailwind CSS",
   "bin": {
     "create-mutorr-stack": "./index.js"
