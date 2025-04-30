@@ -144,5 +144,3 @@ Powered by Vite, Material-UI, Redux Toolkit, and React Router.
 Created by Your Name. Happy coding! 😄
 
 ```
-
-```
