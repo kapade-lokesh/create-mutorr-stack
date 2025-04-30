@@ -35,7 +35,7 @@ Quick Start with npx
 npx create-mutorr-stack my-app
 
 
-🚀 Usage
+## 🚀 Usage
 Create a New Project
 Run the CLI command and provide a project name:
 
@@ -69,7 +69,7 @@ npm run preview
 
 
 
-Project Structure
+# Project Structure
 The generated project has a clean, scalable structure:
 my-app/
 ├── src/
@@ -87,7 +87,7 @@ my-app/
 ├── package.json            # 📦 Project metadata and scripts
 ├── vite.config.ts          # ⚙️ Vite configuration
 └── tailwind.config.js      # 🌬️ Tailwind configuration (if selected)
-🎮 Example
+ # 🎮 Example
 The generated project includes a sample app with:
 
 he generated project includes a sample app with:
@@ -102,7 +102,7 @@ Test the Counter:
 Visit http://localhost:5173.
 Click the Increment and Decrement buttons to update the Redux state.
 
-✅ Requirements
+# ✅ Requirements
 
 🟢 Node.js: Version 16 or higher.
 📦 npm: Version 7 or higher.
@@ -133,13 +133,13 @@ Open a pull request on the main repository.
 
 Please follow the Code of Conduct and include tests for new features.
 
-🐛 Issues
+# 🐛 Issues
 Report bugs or suggest features by opening an issue on the GitHub repository.
 
-📜 License
+# 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-🙌 Acknowledgments
+# 🙌 Acknowledgments
 Built with inspiration from tools like create-vite and create-react-app.
 Powered by Vite, Material-UI, Redux Toolkit, and React Router.
 Created by Your Name. Happy coding! 😄
