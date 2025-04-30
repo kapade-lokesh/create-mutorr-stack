@@ -1,4 +1,4 @@
- <p align="center">
+  <p align="center">
   <img src="https://res.cloudinary.com/dzooftuit/image/upload/v1745995442/logo_ewfpn4.svg" alt="Create Mutorr Stack Logo" width="200"/>
 </p>
 
@@ -33,9 +33,11 @@ npm install -g @yourname/create-mutorr-stack
 
 Quick Start with npx
 npx create-mutorr-stack my-app
-
+```
 
 ## 🚀 Usage
+
+📁 Create a New Project
 Create a New Project
 Run the CLI command and provide a project name:
 
@@ -45,14 +47,11 @@ Answer Prompts
 📝 TypeScript: Choose whether to use TypeScript (y/n).
 🎨 Tailwind CSS: Choose whether to include Tailwind CSS (y/n).
 
-
 Navigate to the project:
 cd my-app
 
-
 Install dependencies (if not already done by the CLI):
 npm install
-
 
 Start the development server:
 npm run start
@@ -67,27 +66,28 @@ The optimized build will be in the dist folder.
 Preview the production build:
 npm run preview
 
-
-
 # Project Structure
+
 The generated project has a clean, scalable structure:
 my-app/
 ├── src/
-│   ├── components/          # 📦 Reusable UI components
-│   ├── features/           # 🧩 Redux slices and logic (e.g., counter)
-│   ├── hooks/              # ⚓ Custom React hooks
-│   ├── pages/              # 📄 Route-based page components (e.g., Home, About)
-│   ├── store/              # 🏬 Redux store configuration
-│   ├── utils/              # 🔧 Utility functions
-│   ├── App.tsx             # 🌐 Router setup with MUI Container
-│   ├── main.tsx            # 🚀 Redux Provider and app entry
-│   └── index.css           # 🎨 Global styles (Tailwind or basic)
-├── public/                 # 📂 Static assets
-├── index.html              # 📑 Vite entry point
-├── package.json            # 📦 Project metadata and scripts
-├── vite.config.ts          # ⚙️ Vite configuration
-└── tailwind.config.js      # 🌬️ Tailwind configuration (if selected)
- # 🎮 Example
+│ ├── components/ # 📦 Reusable UI components <br>
+│ ├── features/ # 🧩 Redux slices and logic (e.g., counter) <br>
+│ ├── hooks/ # ⚓ Custom React hooks <br>
+│ ├── pages/ # 📄 Route-based page components (e.g., Home, About) <br>
+│ ├── store/ # 🏬 Redux store configuration <br>
+│ ├── utils/ # 🔧 Utility functions <br>
+│ ├── App.tsx # 🌐 Router setup with MUI Container <br>
+│ ├── main.tsx # 🚀 Redux Provider and app entry <br>
+│ └── index.css # 🎨 Global styles (Tailwind or basic) <br>
+├── public/ # 📂 Static assets <br>
+├── index.html # 📑 Vite entry point <br>
+├── package.json # 📦 Project metadata and scripts <br>
+├── vite.config.ts # ⚙️ Vite configuration <br>
+└── tailwind.config.js # 🌬️ Tailwind configuration (if selected) <br>
+
+# 🎮 Example
+
 The generated project includes a sample app with:
 
 he generated project includes a sample app with:
@@ -115,32 +115,34 @@ Clone your fork:
 
 Clone your fork:git clone https://github.com/yourusername/create-mutorr-stack.git
 
-
 Create a branch:git checkout -b feature/your-feature
-
 
 Make changes and commit:
 
 git commit -m "Add your feature"
 
-
 Push to your fork:
 
 git push origin feature/your-feature
-
 
 Open a pull request on the main repository.
 
 Please follow the Code of Conduct and include tests for new features.
 
 # 🐛 Issues
+
 Report bugs or suggest features by opening an issue on the GitHub repository.
 
 # 📜 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 # 🙌 Acknowledgments
+
 Built with inspiration from tools like create-vite and create-react-app.
 Powered by Vite, Material-UI, Redux Toolkit, and React Router.
 Created by Your Name. Happy coding! 😄
+
+```
+
 ```
