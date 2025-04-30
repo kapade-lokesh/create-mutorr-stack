@@ -29,7 +29,7 @@ You don’t need to install anything globally! Simply run the following command 
 ```bash
 npm create-mutorr-stack my-app
 
- 
+
 ```
 
 ## 🚀 Usage
@@ -65,9 +65,9 @@ npm run preview
 
 # Project Structure
 
-The generated project has a clean, scalable structure:
-my-app/
-├── src/
+The generated project has a clean, scalable structure: <br>
+my-app/ <br>
+├── src/ <br>
 │ ├── components/ # 📦 Reusable UI components <br>
 │ ├── features/ # 🧩 Redux slices and logic (e.g., counter) <br>
 │ ├── hooks/ # ⚓ Custom React hooks <br>
@@ -139,5 +139,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Built with inspiration from tools like create-vite and create-react-app.
 Powered by Vite, Material-UI, Redux Toolkit, and React Router.
 Created by Your Name. Happy coding! 😄
+
+```
 
 ```
